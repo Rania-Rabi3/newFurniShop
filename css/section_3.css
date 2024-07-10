@@ -1,0 +1,94 @@
+.section_3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.someInfo{
+    position: relative;
+    width: 100%;
+    background-color: #d7d7d7;
+    padding: 20px 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    height: 400px;
+}
+.someInfo h2{
+    display: inline-block;
+}
+
+.someInfo i{
+    font-size: 40px;
+    color: #296f6d;
+}
+
+.marketing{
+    padding-left: 40px;
+    margin-bottom: 25px;
+}
+
+.lines_div{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.three_lines{
+    display: inline-block;
+    width: 55px; 
+    height: 3px;
+    background-color: #296f6d;
+    border-radius: 5px;
+}
+
+.Discount_percentage{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.Discount_percentage_2{
+    color: aliceblue;
+}
+
+.itemsOnDiscount:hover{
+    transform: scale(1.09 , 1.09);
+}
+
+.itemsOnDiscount{
+    position: relative;
+    transition: .5s;
+}
+
+.discount30{
+    margin-top:25px;
+}
+
+
+@media only screen and (min-width: 700px) {
+    /* For tablets: */
+    .section_3{
+        justify-content: space-between;
+        
+    }
+
+    .discount30{
+        margin:0px;
+    }
+    
+}
+
+@media only screen and (min-width: 1400px) {
+    /* For desktop: */
+    .section_3{
+        justify-content: space-between;
+        
+    }
+
+
+    .someInfo{
+        width: 50%;
+        height: auto;
+    }
+
+}
